@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>Blood Donation</title>
+<style>
+    body{
+  color:#000000; background-color:#ffffff;
+  font-family:arial, verdana, sans-serif; font-size:12pt;
+}
+
+
+</style>
+</head>
+<body>
+<img src="C:\Users\vagu\Desktop\6th sem\WE\Blood-Bank-Wallpaper-24.jpg" height=20% width=10% img>
+<marquee height=60 width="89%" direction="right" scrollamount="15" bgcolor="lightgreen">
+<b><i><u><font size=7>Blood Donation🩸</font></u></i></b>
+</marquee>
+<table bgcolor="yellow" width="100%">
+    <form action=server.jsp method=get>
+    <tr>
+        <td><b>Donor Login</b></td>
+        <td><input type=text name=Donor  required></td>
+        <td><b>Password</b></td>
+        <td><input type=text name=Password  required></td>
+        <td><input type=submit></td>
+    </tr>
+   
+    </form>
+    
+</table>
+<table bgcolor=lightblue width=100% border="1">
+<tr>
+<br>
+</tr>
+<tr>
+<td align=center><a href=..........>Register</a></td><td align=center><a href=..........>Why Donate Blood</a></td><td align=center><a href=>Who Can Give Blood</a></td><td align=center><a href=..........>Refer A Friend</a></td><td align=center><a href=..........>Contact Us</a></td>
+</tr>
+</table>
+
+
+<br>
+    <table border="1">
+        
+   <td><table bgcolor="pink">
+
+    
+    <b>FIND A DONOR</b>
+
+    
+        <tr>
+            <td>State</td>  
+            <td><select name="state">
+                
+                <option value="">Delhi</option> 
+                <option value="">Orissa</option>
+                <option value="">Gujarat</option>
+                <option value="">Maharashtra</option>
+                <option value="">Jammu&Kashmir</option>
+                <option value="">U.P</option>
+            </select></td>
+        </tr>
+        <br>
+       
+            <td>City</td>
+            <td> <select name="City">
+                
+                <option value="">Agra</option> 
+                <option value="">Ahemdabad</option>
+                <option value="">Delhi</option>
+                <option value="">Mumbai</option>
+                <option value="">Srinagar</option>
+                <option value="">Chennai</option>
+            </select></td>
+            
+        </tr>
+        
+        <tr>
+            <td>Area</td>
+            <td>
+                <select name="area">
+                
+                    <option value="">area1</option> 
+                    <option value="">area2</option>
+                    <option value="">area3</option>
+                    <option value="">area4</option>
+                    <option value="">area5</option>
+                    <option value="">area6</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Group</td>
+            <td> <select name="group">
+                
+                <option value="">A+</option> 
+                <option value="">A-</option>
+                <option value="">B+</option>
+                <option value="">B-</option>
+                <option value="">AB+</option>
+                <option value="">AB-</option>
+                <option value="">O+</option>
+                <option value="">O-</option>
+            </select></td>
+        </tr>
+       
+        <tr>
+            <td></td>
+            <td><button>Search</button></td>
+        </tr>
+  
+
+  
+    
+
+    </table>
+</td>
+ <td>
+    <img id="image" src="https://2.bp.blogspot.com/-KHhFlQBFfDI/Wm94wXCyUeI/AAAAAAAAD7I/ZYy-C81j9P0c82oOboZIi9yQF9rPeXuSQCLcBGAs/s1600/gayle-35.gif" style="300" height="300">
+    <p></p>
+    <script>
+        var imageSources = ["https://d3n8a8pro7vhmx.cloudfront.net/troysingleton/pages/7204/attachments/original/1546448703/new-year-new-blood.gif?1546448703"]
+  
+        var index = 0;
+        setInterval(function(){
+          if (index === imageSources.length) {
+            index = 0;
+          }
+          document.getElementById("image").src = imageSources[index];
+          index++;
+        }, 3000);
+      </script>
+  
+ </td>
+    </table>
+    <br>
+    <table border="1px" bgcolor="#b765d7">
+    <td><table border="1" bgcolor="white">
+        <h2>Donation Process</h2>
+        <td><p>If you’re donating whole blood, we’ll cleanse an area on your arm and insert a brand new sterile needle for the blood draw. (This feels like a quick pinch and is over in seconds.)</p>
+        <p>Other types of donations, such as platelets, are made using an apheresis machine which will be connected to both arms.
+        
+        
+        <p>A whole blood donation takes about 8-10 minutes, during which you’ll be seated comfortably or lying down.</p>
+        <p>When approximately a pint of whole blood has been collected, the donation is complete and a staff person will place a bandage on your arm.</p>
+        <p>For platelets, the apheresis machine will collect a small amount of blood, remove the platelets, and return the rest of the blood through your other arm; this cycle will be repeated several times over about 2 hours. </p></td>
+    </table></td>
+   </table>
+   <br>
+ <table border="1">
+  <td><table>
+     <td><h2>Where Would You Like To Donate ❓❓</h2>
+
+    <form>
+        <input type="text" size="40" name="search" placeholder="Search..." required>
+        <button>Search</button>
+    </form>
+    </td>
+ </table></td>
+ 
+ </table>
+</body>
+</html>
