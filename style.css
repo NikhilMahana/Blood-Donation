@@ -87,7 +87,7 @@ header{
     color: #2d3142;
     margin-bottom: 10px;
 }
-/* #footer{
+ #footer{
     padding: 40px;
     color: whitesmoke;
     background-color: #353531;
@@ -118,7 +118,7 @@ header{
 #footer .copyrights h3{
     padding: 40px 0;
     color : #ced0ce;
-} */
+} 
 #ContactUs{
     display:flex;
     flex-direction: column;
